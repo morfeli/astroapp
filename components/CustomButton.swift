@@ -11,9 +11,6 @@ struct CustomButton: View {
     var action: (String) -> Void
     var label = "Text"
     @Binding var activeButton: String
-    
-    
-    
 
     var body: some View {
         Button(action: {

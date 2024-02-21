@@ -18,6 +18,8 @@ struct ContentView: View {
             ZStack() {
                 if show {
                         HomeView()
+                        .transition(.move(edge: .trailing))
+                        .animation(.easeInOut(duration: 0.5))
                 }
                 VStack(spacing: 250) {
                     Text("AstroScape")
@@ -51,14 +53,14 @@ struct ContentView: View {
                     .scaleEffect(isPressed ? 0.90 : 1.0)
                     .animation(.spring(response: 0.4, dampingFraction: 0.6))
                     .onTapGesture {
-                        isPressed = true
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                            isPressed = false
-                            withAnimation(.spring()) {
-                                show.toggle()
-                            }
-                        }
-                    }
+                                           isPressed = true
+                                           DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                                               isPressed = false
+                                               withAnimation(.spring()) {
+                                                   show.toggle()
+                                               }
+                                           }
+                                       }
                 }
               
                 

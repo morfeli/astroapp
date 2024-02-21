@@ -16,8 +16,6 @@ struct ViewTitle: View {
             .font(.title2)
             .foregroundColor(.white)
             .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .padding()
     }
 }
 

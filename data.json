@@ -1,0 +1,443 @@
+{
+  "planets": [
+    {
+      "name": "Mercury",
+      "id": 1,
+      "diameter": "4,879 km",
+      "mass": "3.29 × 10^23 kg (0.06 Earths)",
+      "moons": "None",
+      "orbitDistance": "57,909,227 km (0.39 AU)",
+      "orbitPeriod": "88 days",
+      "surfaceTemperature": "-173 to 427°C",
+      "discoveryDate": "March 13th 1781",
+
+    },
+    {
+      "name": "Venus",
+      "id": 2,
+      "diameter": "12,104 km",
+      "mass": "4.87 × 10^24 kg (0.82 Earths)",
+      "moons": "None",
+      "orbitDistance": "108,209,475 km (0.73 AU)",
+      "orbitPeriod": "225 days",
+      "surfaceTemperature": "462 °C",
+      "discoveryDate": "March 13th 1781",
+
+      
+    },
+    {
+      "name": "Earth",
+      "id": 3,
+      "diameter": "12,756 km",
+      "polarDiameter": "12,714 km",
+      "mass": "5.97 × 10^24 kg",
+      "moons": "1 (The Moon)",
+      "orbitDistance": "149,598,262 km (1 AU)",
+      "orbitPeriod": "365.24 days",
+      "surfaceTemperature": "-88 to 58°C"
+      
+
+    },
+    {
+      "name": "Mars",
+      "id": 4,
+      "diameter": "6,792 km",
+      "polarDiameter": "6,752 km",
+      "mass": "6.39 × 10^23 kg (0.11 Earths)",
+      "moons": "2 (Phobos & Deimos)",
+      "orbitDistance": "227,943,824 km (1.38 AU)",
+      "orbitPeriod": "687 days (1.9 years)",
+      "surfaceTemperature": "-87 to -5 °C",
+      "discoveryDate": "March 13th 1781",
+
+      
+    },
+    {
+      "name": "Jupiter",
+      "id": 5,
+      "diameter": "142,984 km",
+      "polarDiameter": "133,709 km",
+      "mass": "1.90 × 10^27 kg (318 Earths)",
+      "moons": "79 (Io, Europa, Ganymede & Callisto)",
+      "rings": "4",
+      "orbitDistance": "778,340,821 km (5.20 AU)",
+      "orbitPeriod": "4,333 days (11.9 years)",
+      "surfaceTemperature": "-108°C",
+      "discoveryDate": "March 13th 1781",
+
+      
+    },
+    {
+      "name": "Saturn",
+      "id": 6,
+      "diameter": "120,536 km",
+      "polarDiameter": "108,728 km",
+      "mass": "5.68 × 10^26 kg (95 Earths)",
+      "moons": "82 (Titan, Enceladus, Iapetus & Rhea)",
+      "rings": "30+ (7 Groups)",
+      "orbitDistance": "1,426,666,422 km (9.58 AU)",
+      "orbitPeriod": "10,756 days (29.5 years)",
+      "surfaceTemperature": "-139 °C",
+      "discoveryDate": "March 13th 1781",
+
+      
+    },
+    {
+      "name": "Uranus",
+      "id": 7,
+      "diameter": "51,118 km",
+      "polarDiameter": "49,946 km",
+      "mass": "8.68 × 10^25 kg (15 Earths)",
+      "moons": "27 (Miranda, Titania, Ariel, Umbriel & Oberon)",
+      "rings": "13",
+      "orbitDistance": "2,870,658,186 km (19.22 AU)",
+      "orbitPeriod": "30,687 days (84.0 years)",
+      "surfaceTemperature": "-197 °C",
+      "discoveryDate": "March 13th 1781",
+      
+    },
+    {
+      "name": "Neptune",
+      "id": 8,
+      "diameter": "49,528 km",
+      "polarDiameter": "48,682 km",
+      "mass": "1.02 × 10^26 kg (17 Earths)",
+      "moons": "14 (Triton)",
+      "rings": "5",
+      "orbitDistance": "4,498,396,441 km (30.10 AU)",
+      "orbitPeriod": "60,190 days (164.8 years)",
+      "surfaceTemperature": "-201 °C",
+      "discoveryDate": "September 23rd 1846",
+      
+    }
+  ],
+  "moons": [
+      {
+          "name": "Moon",
+          "diameter": "3,475 km",
+          "mass": "7.35 × 10^22 kg (0.01 Earths)",
+          "orbits": "The Earth",
+          "orbitDistance": "384,400 km",
+          "orbitPeriod": "27.3 days",
+          "surfaceTemperature": "-233 to 123 °C"
+      },
+      {
+          "name": "Phobos",
+          "diameter": "22.2 km",
+          "mass": "1.07 × 10^16 kg (0.00001% Moon)",
+          "orbits": "Mars",
+          "orbitDistance": "9,376 km",
+          "orbitPeriod": "7.7 hours",
+          "surfaceTemperature": "-40 °C",
+          "discoveryDate": "August 17, 1877",
+          
+      },
+      {
+          "name": "Deimos",
+          "diameter": "12.4 km",
+          "mass": "1.48 × 10^15 kg (0.000002% Moon)",
+          "orbits": "Mars",
+          "orbitDistance": "23,458 km",
+          "orbitPeriod": "1.3 days",
+          "surfaceTemperature": "-40 °C",
+          "discoveryDate": "August 12, 1877",
+          
+      },
+      {
+          "name": "Io",
+          "diameter": "3,643.2 km",
+          "mass": "8.93 x 10^22 kg (1.2 Moons)",
+          "orbits": "Jupiter",
+          "orbitDistance": "421,800 km",
+          "orbitPeriod": "1.77 days",
+          "surfaceTemperature": "-163 °C",
+          "discoveryDate": "January 8, 1610",
+          
+      },
+      {
+          "name": "Europa",
+          "diameter": "3,121.6 km",
+          "mass": "4.80 x 10^22 kg (65.2% Moon)",
+          "orbits": "Jupiter",
+          "orbitDistance": "671,100 km",
+          "orbitPeriod": "3.55 days",
+          "surfaceTemperature": "-171 °C",
+          "discoveryDate": "January 8, 1610",
+          
+      },
+      {
+          "name": "Ganymede",
+          "diameter": "5,262.4 km",
+          "mass": "1.48 x 10^23 kg (2.0 Moons)",
+          "orbits": "Jupiter",
+          "orbitDistance": "1,070,400 km",
+          "orbitPeriod": "7.16 days",
+          "surfaceTemperature": "-163 °C",
+          "discoveryDate": "January 7, 1610",
+          
+      },
+      {
+          "name": "Callisto",
+          "diameter": "4,820.6 km",
+          "mass": "1.08 x 10^23 kg (1.5 Moons)",
+          "orbits": "Jupiter",
+          "orbitDistance": "1,882,700 km",
+          "orbitPeriod": "16.69 days",
+          "surfaceTemperature": "-139 °C",
+          "discoveryDate": "January 7, 1610",
+          
+      },
+      {
+          "name": "Enceladus",
+          "diameter": "504.2 km",
+          "mass": "1.08 × 10^20 kg (0.1% Moon)",
+          "orbits": "Saturn",
+          "orbitDistance": "238,037 km",
+          "orbitLength": "1.4 days",
+          "surfaceTemperature": "-198 °C",
+          "discoveryDate": "August 28, 1789",
+          
+      },
+      {
+          "name": "Rhea",
+          "diameter": "1,528.6 km",
+          "mass": "2.31 × 10^21 kg (3.1% Moon)",
+          "orbits": "Saturn",
+          "orbitDistance": "527,068 km",
+          "orbitLength": "4.5 days",
+          "surfaceTemperature": "-179 to -220 °C",
+          "discoveryDate": "December 23, 1672",
+          
+      },
+      {
+          "name": "Titan",
+          "diameter": "5,149.4 km",
+          "mass": "1.35 × 10^23 kg (1.8 Moons)",
+          "orbits": "Saturn",
+          "orbitDistance": "1,221,865 km",
+          "orbitLength": "15.9 days",
+          "surfaceTemperature": "-179 °C",
+          "discoveryDate": "March 25, 1655",
+          
+      },
+      {
+          "name": "Iapetus",
+          "diameter": "1,471.2 km",
+          "mass": "1.81 × 10^21 kg (2.5% Moon)",
+          "orbits": "Saturn",
+          "orbitDistance": "3,560,851 km",
+          "orbitLength": "79.3 days",
+          "surfaceTemperature": "-143 to -183 °C",
+          "discoveryDate": "October 25, 1671",
+          
+      },
+      {
+          "name": "Miranda",
+          "diameter": "471.6 km",
+          "mass": "6.59 × 10^19 (0.09% Moon)",
+          "orbits": "Uranus",
+          "orbitDistance": "129,900 km",
+          "orbitPeriod": "1.4 days",
+          "surfaceTemperature": "213 °C",
+          "discoveryDate": "February 16, 1948",
+          
+      },
+      {
+          "name": "Titania",
+          "diameter": "1,577.8 km",
+          "mass": "3.42 × 10^21 kg (4.7% Moon)",
+          "orbits": "Uranus",
+          "orbitDistance": "436,300 km",
+          "orbitLength": "8.7 days",
+          "surfaceTemperature": "-203 °C",
+          "discoveryDate": "January 11, 1787",
+          
+      },
+      {
+          "name": "Triton",
+          "diameter": "2,706.8 km",
+          "mass": "2.14 × 10^22 kg (29.1% Moon)",
+          "orbits": "Neptune",
+          "orbitDistance": "354,759 km",
+          "orbitPeriod": "5.9 days (retrograde)",
+          "surfaceTemperature": "-135 °C",
+          "discoveryDate": "October 10, 1846",
+          
+      },
+      {
+          "name": "Charon",
+          "diameter": "1,207.2 km",
+          "mass": "1.55 × 10^21 kg (2.1% Moon)",
+          "orbits": "Pluto - Charon Barycentre",
+          "orbitDistance": "17,536 km",
+          "plutoDistance": "19,596 km",
+          "orbitLength": "6.4 days",
+          "surfaceTemperature": "−220 °C",
+          "discoveryDate": "June 22, 1978",
+          
+      }
+  ],
+  "solarSystem": [
+      {
+          "name": "Sun",
+          "age": "4.6 Billion Years",
+          "diameter": "1,392,684 km",
+          "mass": "1.99 × 10^30 kg (333,060 Earths)",
+          "surfaceTemperature": "5,500 °C",
+          "detail": "The Sun is the star at the centre of our solar system. It is an almost perfect sphere of super-hot gases whose gravity holds the solar system together. The energy produced by the Sun is essential for life on Earth and is a driving force behind the Earth’s weather."
+      },
+      {
+          "name": "Solar Eclipse",
+          "detail": "A solar eclipse is a natural event that takes place on Earth when the Moon moves in its orbit between Earth and the Sun (this is also known as an occultation). It happens at New Moon, when the Sun and Moon are in conjunction with each other. If the Moon was only slightly closer to Earth, and orbited in the same plane and its orbit was circular, we would see eclipses each month. The lunar orbit is elliptical and tilted with respect to Earth’s orbit, so we can only see up to 5 eclipses per year. Depending on the geometry of the Sun, Moon and Earth, the Sun can be totally blocked, or it can be partially blocked. There are three tpyes of solar eclipses, Total Solar, Annular Solar, and Partial Solar"
+      },
+      {
+          "name": "Asteroid Belt",
+          "detail": "Asteroid Belt objects are made of rock and stone. Some are solid objects, while others are orbiting 'rubble piles'. The Asteroid Belt contains billions and billions of asteroids. Some asteroids in the Belt are quite large, but most range in size down to pebbles. The asteroid 1/Ceres is also designated as a dwarf planet, the largest one in the inner solar system. We know of at least 7,000 asteroids. The Asteroid Belt may contain many objects, but they are spread out over a huge area of space. This has allowed spacecraft to move through this region without hitting anything. Asteroids get their names from suggestions by their discoverers and are also given a number. The formation of Jupiter disrupted the formation of any worlds in the Asteroid Belt region by scattering asteroids away. This caused them to collide and break into smaller pieces. Gravitational influences can move asteroids out of the Belt. The Asteroid Belt is often referred to as the 'Main Belt' to distinguish it from other groups of asteroids such as the Lagrangians and Centaurs. The four largest asteroids in the belt are Ceres, Vesta, Pallas, and Hygiea. The Asteroid Belt is located in an area of space between the orbits of Mars and Jupiter."
+      },
+      {
+          "name": "Kuiper Belt",
+          "detail": "The Kuiper Belt (sometimes referred to as the Kuiper-Edgeworth Belt) is an area of the outer solar system that is estimated to stretch across 20 astronomical units (AU) of space. It contains small solar system bodies made mostly of ices. The ices are frozen volatiles (gases) such as methane, ammonia, nitrogen and water. It also is home to the known dwarf planets Pluto, Haumea and Makemake. The Kuiper Belt could contain hundreds of thousands of icy bodies that range in size from small chunks of ice to worldlets larger than 100 kilometres across. Astronomers have tracked most short-period comets from their origins in the Kuiper Belt. These are comets with orbital periods of 200 years or less. There could be more than a trillion comet nuclei in the main body of the Kuiper Belt."
+          
+      },
+      {
+          "name": "Asteroid",
+          "detail": "Asteroids are small, rocky solar system bodies that populate interplanetary space out to the orbit of Jupiter. There are millions of them, and they are often grouped by their composition. The planetary science community refers to them as minor planets, a general term applied to solar system bodies smaller than moons. Asteroids are mainly made of materials left over from the formation of the inner solar system words. Asteroids are clues to the formation of the rocky planets of our solar system. The objects we see today are leftover from a time when the solar system formed 4.5 billion years ago. There are a LOT of these leftovers out there."
+      },
+      {
+          "name": "Comet",
+          "detail": "A comet is a very small solar system body made mostly of ices mixed with smaller amounts of dust and rock. Most comets are no larger than a few kilometres across. The main body of the comet is called the nucleus, and it can contain water, methane, nitrogen and other ices."
+      },
+      {
+          "name": "Meteorite",
+          "detail": "Earth is bombarded with millions of tons of space material each day. Most of the objects vaporize in our atmosphere, but some of the larger pieces (from pebbles to boulder-sized rocks) actually fall to the ground. Most of the objects come from asteroids, which are objects made of various types of rock and have existed since the origin of the solar system. A small rocky or metallic chunk of material that travels through space is called a meteoroid. Very small meteoroids (the size of dust) are often referred to as micrometeoroids or space dust. These fragments may also be leftover comet debris, or were ejected in collisions between other solar system bodies such as the Moon or Mars. As a meteoroid travels through our atmosphere, it is heated by friction. That causes it to glow, and if this happens at night, we see a long streak of light known as a meteor."
+      },
+      {
+          "name": "Meteor Shower",
+          "detail": "A meteor shower occurs when a number of meteors flash seem to radiate (or shoot out from) the same point in the sky. They are usually named for the constellation in which their radiant appears. The meteoroids in a shower usually come from the trail of debris left behind by a comet. In the case of the Geminids and Quadrantids, those meteor showers come from the debris scatted by orbiting asteroids. When Earth’s orbit intersects the dust trail, we see more meteors flaring as the cometary debris encounters our planet’s atmosphere."
+      }
+  ],
+    "galaxies": [
+            {
+              "name": "Milky Way Galaxy",
+              
+                "type": "Barred Spiral",
+                "diameter": "100,000 - 180,000 ly",
+                "distanceToGalacticCentre": "27,000 ly",
+                "mass": "800 - 1,500 M☉",
+                "age": "13.6 Billion years",
+                "numberOfStars": "100 - 400 billion",
+                "constellation": "Sagittarius",
+                "group": "Local Group",
+              "description": "The Milky Way Galaxy is our home galaxy in the universe. It is a fairly typical barred spiral with four major arms in its disk, at least one spur, and a newly discovered outer arm. The galactic centre, which is located about 26,000 light-years from Earth, contains at least one supermassive black hole (called Sagittarius A*), and is crossed by a bar. It is also home to a diverse array of celestial objects, including star clusters, nebulae, and planetary systems."
+            },
+            {
+              "name": "Andromeda Galaxy",
+              
+                "designation": "M31 or NGC 224",
+                "type": "Spiral",
+                "diameter": "220,000 ly",
+                "distance": "2.54 Mly",
+                "mass": "1,230 billion M☉",
+                "numberOfStars": "1 trillion",
+                "constellation": "Andromeda",
+                "group": "Local Group",
+              "description": "The Andromeda Galaxy (M31) is the closest large galaxy to the Milky Way and is one of a few galaxies that can be seen unaided from the Earth. In approximately 4.5 billion years, the Andromeda Galaxy and the Milky Way are expected to collide and the result will be a giant elliptical galaxy. Andromeda is accompanied by 14 dwarf galaxies, including M32, M110, and possibly M33 (The Triangulum Galaxy). Its spiral structure and vast population of stars make it a fascinating subject for astronomers."
+            },
+            {
+              "name": "Messier 87 Galaxy",
+              
+                "designation": "M87 or NGC 4486",
+                "type": "Elliptical",
+                "diameter": "120,000 ly",
+                "distance": "53 Mly",
+                "mass": "2,400 billion M☉",
+                "numberOfStars": "1 trillion",
+                "constellation": "Virgo",
+                "group": "Virgo Cluster",
+              "description": "The massive galaxy M87 is the most spectacular example of an elliptical galaxy we can see from Earth. It is home to a supermassive black hole at its center, from which emanates a powerful jet of particles that extends over thousands of light-years. M87's elliptical shape and lack of obvious dust lanes make it unique among galaxies, and its formation history provides valuable insights into the evolution of galactic structures."
+            },
+            {
+              "name": "Antennae Galaxies",
+              
+                "designation": "NGC 4038 & NGC 4039",
+                "type": "Interacting Spirals",
+                "tailTailDistance": "350,000 ly",
+                "centreCentreDistance": "30,00 ly",
+                "distance": "45 Mly",
+                "constellation": "Corvus",
+                "group": "Virgo Cluster",
+              "description": "The Antennae is a pair of spiral galaxies that are interacting and mingling their stars. They began their galactic dance over a few hundred million years ago and are currently in a period where their colliding gas clouds are bursting with new star formation. As the two galaxies merge, their gravitational interactions pull long tails of gas away from each other, and these tails are the sites of starburst activity. In a few billion years, the cores of these two galaxies will be combined into one large core, with a supermassive black hole at its heart. It will be surrounded by an elliptical galaxy of old stars."
+            },
+            {
+              "name": "Large Magellanic Cloud",
+              
+                "designation": "LMC",
+                "type": "Disrupted Barred Spiral",
+                "diameter": "14,000 ly",
+                "distance": "163,000 ly",
+                "mass": "10 billion M☉",
+                "numberOfStars": "30 billion",
+                "constellation": "Dorado & Mensa",
+                "group": "Local Group",
+              "description": "The Large Magellanic Cloud (LMC) is a nearby satellite galaxy of the Milky Way. Despite its irregular shape, it harbors a wealth of astronomical phenomena, including young star clusters, nebulae, and supernova remnants. The LMC's proximity to our own galaxy makes it an excellent target for observational studies, providing insights into the processes of star formation and galactic evolution."
+            },
+            {
+              "name": "Small Magellanic Cloud",
+              
+                "designation": "SMC",
+                "type": "Dwarf Galaxy",
+                "diameter": "7,000 ly",
+                "distance": "197,000 ly",
+                "mass": "6.5 billion M☉",
+                "numberOfStars": "3 billion",
+                "constellation": "Tucana & Hydrus",
+                "group": "Local Group",
+              "description": "The Small Magellanic Cloud (SMC) is another satellite galaxy of the Milky Way. Despite its smaller size, it shares many characteristics with its larger sibling, including a high rate of star formation and a complex structure shaped by gravitational interactions with the Milky Way. The SMC's proximity to the LMC and the Milky Way makes it an important target for astronomers studying galaxy interactions and the formation of stellar populations."
+            },
+            {
+              "name": "Pinwheel Galaxy",
+              
+                "designation": "M101 or NGC 5457",
+                "type": "Spiral",
+                "diameter": "170,000 ly",
+                "distance": "21 Mly",
+                "mass": "1,000 billion M☉",
+                "numberOfStars": "1 trillion",
+                "constellation": "Ursa Major",
+              "description": "The Pinwheel Galaxy, also known as M101, is a 'grand design' spiral galaxy with well-defined spiral arms and dust lanes that extend all the way around the body of the galaxy. It was discovered in 1781 and is notable for its extensive regions of active star formation, known as HII regions. The Pinwheel Galaxy's proximity and distinct morphology make it a popular target for amateur and professional astronomers alike."
+            },
+            {
+              "name": "Sombrero Galaxy",
+              
+                "designation": "M104 or NGC 4594",
+                "type": "Spiral",
+                "diameter": "50,000 ly",
+                "distance": "29 Mly",
+                "mass": "800 billion M☉",
+                "constellation": "Virgo",
+              "description": "The Sombrero Galaxy, also known as M104, is one of the most unusual looking barred spiral galaxies visible from Earth. Its bright nucleus, large central bulge, and prominent dust lane make it resemble a sombrero hat. The dust lane is rich with gas and dust, providing fertile ground for star formation. The Sombrero Galaxy's unique appearance and active star formation make it a fascinating subject for study with telescopes like NASA's Hubble and Spitzer."
+            },
+            {
+              "name": "Triangulum Galaxy",
+                "designation": "M33 or NGC 598",
+                "type": "Spiral",
+                "diameter": "60,000 ly",
+                "distance": "3 Mly",
+                "mass": "50 billion M☉",
+                "numberOfStars": "40 billion",
+                "constellation": "Triangulum",
+              "description": "The Triangulum Galaxy, also known as M33, is one of the closest spiral galaxies to the Milky Way. It lies 3 million light-years away, in the constellation Triangulum. The Triangulum Galaxy is formally described as a spiral galaxy with a weak (or possibly no) central bar and its loosely wound arms emanate from the galactic core. Its proximity and active star formation make it an important target for astronomers studying the dynamics of spiral galaxies."
+            },
+            {
+              "name": "Whirlpool Galaxy",
+                "designation": "M51a or NGC 5194",
+                "type": "Spiral",
+                "diameter": "60,000 ly",
+                "distance": "23 Mly",
+                "mass": "160 billion M☉",
+                "constellation": "Canes Venatici",
+              "description": "The Whirlpool Galaxy, also known as M51a, is a familiar sight to stargazers and among the many close galaxy neighbors to our Milky Way. Its spiral structure and interaction with its companion galaxy, M51b, make it an ideal target for studying galaxy interactions and star formation processes. The Whirlpool Galaxy's proximity and unique features make it a popular target for amateur and professional astronomers alike."
+            }
+          ]
+        
+          }

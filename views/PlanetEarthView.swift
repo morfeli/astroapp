@@ -6,24 +6,25 @@
 //
 
 import SwiftUI
+import SwiftData
 
 
 struct PlanetEarthView: View {
-    var body: some View {
+    @Query var moons: [Moon]
+
         
-            VStack {
-                
-                    Text("Earth view")
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
-                
-            }
-            .navigationBarTitle("First View")
+    
+    var body: some View {
+        ForEach(moons) { moon in
+            Text(moon.name)
+                .foregroundStyle(.black)
         }
+    }
+
     
 }
+
+
 
 
 struct PlanetEarthView_Previews: PreviewProvider {
@@ -31,3 +32,4 @@ struct PlanetEarthView_Previews: PreviewProvider {
         PlanetEarthView()
     }
 }
+
