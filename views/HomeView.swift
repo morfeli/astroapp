@@ -79,6 +79,8 @@ struct HomeView: View {
                                 MoonsView()
                             case "Solar System":
                                 SolarSystemView()
+                            case "Galaxies":
+                                GalaxiesView()
                             default:
                                 PlanetsView()
                             }

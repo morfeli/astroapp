@@ -13,5 +13,6 @@ struct PlanetsData: Decodable {
     let planets: [Planet]
     let moons: [Moon]
     let solarSystem: [SolarSystem]
+    let galaxies: [Galaxies]
 }
 

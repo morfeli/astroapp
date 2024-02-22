@@ -319,7 +319,6 @@
     "galaxies": [
             {
               "name": "Milky Way Galaxy",
-              
                 "type": "Barred Spiral",
                 "diameter": "100,000 - 180,000 ly",
                 "distanceToGalacticCentre": "27,000 ly",
@@ -328,11 +327,10 @@
                 "numberOfStars": "100 - 400 billion",
                 "constellation": "Sagittarius",
                 "group": "Local Group",
-              "description": "The Milky Way Galaxy is our home galaxy in the universe. It is a fairly typical barred spiral with four major arms in its disk, at least one spur, and a newly discovered outer arm. The galactic centre, which is located about 26,000 light-years from Earth, contains at least one supermassive black hole (called Sagittarius A*), and is crossed by a bar. It is also home to a diverse array of celestial objects, including star clusters, nebulae, and planetary systems."
+                "detail": "The Milky Way Galaxy is our home galaxy in the universe. It is a fairly typical barred spiral with four major arms in its disk, at least one spur, and a newly discovered outer arm. The galactic centre, which is located about 26,000 light-years from Earth, contains at least one supermassive black hole (called Sagittarius A*), and is crossed by a bar. It is also home to a diverse array of celestial objects, including star clusters, nebulae, and planetary systems."
             },
             {
               "name": "Andromeda Galaxy",
-              
                 "designation": "M31 or NGC 224",
                 "type": "Spiral",
                 "diameter": "220,000 ly",
@@ -341,11 +339,10 @@
                 "numberOfStars": "1 trillion",
                 "constellation": "Andromeda",
                 "group": "Local Group",
-              "description": "The Andromeda Galaxy (M31) is the closest large galaxy to the Milky Way and is one of a few galaxies that can be seen unaided from the Earth. In approximately 4.5 billion years, the Andromeda Galaxy and the Milky Way are expected to collide and the result will be a giant elliptical galaxy. Andromeda is accompanied by 14 dwarf galaxies, including M32, M110, and possibly M33 (The Triangulum Galaxy). Its spiral structure and vast population of stars make it a fascinating subject for astronomers."
+              "detail": "The Andromeda Galaxy (M31) is the closest large galaxy to the Milky Way and is one of a few galaxies that can be seen unaided from the Earth. In approximately 4.5 billion years, the Andromeda Galaxy and the Milky Way are expected to collide and the result will be a giant elliptical galaxy. Andromeda is accompanied by 14 dwarf galaxies, including M32, M110, and possibly M33 (The Triangulum Galaxy). Its spiral structure and vast population of stars make it a fascinating subject for astronomers."
             },
             {
               "name": "Messier 87 Galaxy",
-              
                 "designation": "M87 or NGC 4486",
                 "type": "Elliptical",
                 "diameter": "120,000 ly",
@@ -354,19 +351,17 @@
                 "numberOfStars": "1 trillion",
                 "constellation": "Virgo",
                 "group": "Virgo Cluster",
-              "description": "The massive galaxy M87 is the most spectacular example of an elliptical galaxy we can see from Earth. It is home to a supermassive black hole at its center, from which emanates a powerful jet of particles that extends over thousands of light-years. M87's elliptical shape and lack of obvious dust lanes make it unique among galaxies, and its formation history provides valuable insights into the evolution of galactic structures."
+              "detail": "The massive galaxy M87 is the most spectacular example of an elliptical galaxy we can see from Earth. It is home to a supermassive black hole at its center, from which emanates a powerful jet of particles that extends over thousands of light-years. M87's elliptical shape and lack of obvious dust lanes make it unique among galaxies, and its formation history provides valuable insights into the evolution of galactic structures."
             },
             {
               "name": "Antennae Galaxies",
               
                 "designation": "NGC 4038 & NGC 4039",
                 "type": "Interacting Spirals",
-                "tailTailDistance": "350,000 ly",
-                "centreCentreDistance": "30,00 ly",
                 "distance": "45 Mly",
                 "constellation": "Corvus",
                 "group": "Virgo Cluster",
-              "description": "The Antennae is a pair of spiral galaxies that are interacting and mingling their stars. They began their galactic dance over a few hundred million years ago and are currently in a period where their colliding gas clouds are bursting with new star formation. As the two galaxies merge, their gravitational interactions pull long tails of gas away from each other, and these tails are the sites of starburst activity. In a few billion years, the cores of these two galaxies will be combined into one large core, with a supermassive black hole at its heart. It will be surrounded by an elliptical galaxy of old stars."
+              "detail": "The Antennae is a pair of spiral galaxies that are interacting and mingling their stars. They began their galactic dance over a few hundred million years ago and are currently in a period where their colliding gas clouds are bursting with new star formation. As the two galaxies merge, their gravitational interactions pull long tails of gas away from each other, and these tails are the sites of starburst activity. In a few billion years, the cores of these two galaxies will be combined into one large core, with a supermassive black hole at its heart. It will be surrounded by an elliptical galaxy of old stars."
             },
             {
               "name": "Large Magellanic Cloud",
@@ -379,7 +374,7 @@
                 "numberOfStars": "30 billion",
                 "constellation": "Dorado & Mensa",
                 "group": "Local Group",
-              "description": "The Large Magellanic Cloud (LMC) is a nearby satellite galaxy of the Milky Way. Despite its irregular shape, it harbors a wealth of astronomical phenomena, including young star clusters, nebulae, and supernova remnants. The LMC's proximity to our own galaxy makes it an excellent target for observational studies, providing insights into the processes of star formation and galactic evolution."
+              "detail": "The Large Magellanic Cloud (LMC) is a nearby satellite galaxy of the Milky Way. Despite its irregular shape, it harbors a wealth of astronomical phenomena, including young star clusters, nebulae, and supernova remnants. The LMC's proximity to our own galaxy makes it an excellent target for observational studies, providing insights into the processes of star formation and galactic evolution."
             },
             {
               "name": "Small Magellanic Cloud",
@@ -392,7 +387,7 @@
                 "numberOfStars": "3 billion",
                 "constellation": "Tucana & Hydrus",
                 "group": "Local Group",
-              "description": "The Small Magellanic Cloud (SMC) is another satellite galaxy of the Milky Way. Despite its smaller size, it shares many characteristics with its larger sibling, including a high rate of star formation and a complex structure shaped by gravitational interactions with the Milky Way. The SMC's proximity to the LMC and the Milky Way makes it an important target for astronomers studying galaxy interactions and the formation of stellar populations."
+              "detail": "The Small Magellanic Cloud (SMC) is another satellite galaxy of the Milky Way. Despite its smaller size, it shares many characteristics with its larger sibling, including a high rate of star formation and a complex structure shaped by gravitational interactions with the Milky Way. The SMC's proximity to the LMC and the Milky Way makes it an important target for astronomers studying galaxy interactions and the formation of stellar populations."
             },
             {
               "name": "Pinwheel Galaxy",
@@ -404,7 +399,7 @@
                 "mass": "1,000 billion M☉",
                 "numberOfStars": "1 trillion",
                 "constellation": "Ursa Major",
-              "description": "The Pinwheel Galaxy, also known as M101, is a 'grand design' spiral galaxy with well-defined spiral arms and dust lanes that extend all the way around the body of the galaxy. It was discovered in 1781 and is notable for its extensive regions of active star formation, known as HII regions. The Pinwheel Galaxy's proximity and distinct morphology make it a popular target for amateur and professional astronomers alike."
+              "detail": "The Pinwheel Galaxy, also known as M101, is a 'grand design' spiral galaxy with well-defined spiral arms and dust lanes that extend all the way around the body of the galaxy. It was discovered in 1781 and is notable for its extensive regions of active star formation, known as HII regions. The Pinwheel Galaxy's proximity and distinct morphology make it a popular target for amateur and professional astronomers alike."
             },
             {
               "name": "Sombrero Galaxy",
@@ -415,7 +410,7 @@
                 "distance": "29 Mly",
                 "mass": "800 billion M☉",
                 "constellation": "Virgo",
-              "description": "The Sombrero Galaxy, also known as M104, is one of the most unusual looking barred spiral galaxies visible from Earth. Its bright nucleus, large central bulge, and prominent dust lane make it resemble a sombrero hat. The dust lane is rich with gas and dust, providing fertile ground for star formation. The Sombrero Galaxy's unique appearance and active star formation make it a fascinating subject for study with telescopes like NASA's Hubble and Spitzer."
+              "detail": "The Sombrero Galaxy, also known as M104, is one of the most unusual looking barred spiral galaxies visible from Earth. Its bright nucleus, large central bulge, and prominent dust lane make it resemble a sombrero hat. The dust lane is rich with gas and dust, providing fertile ground for star formation. The Sombrero Galaxy's unique appearance and active star formation make it a fascinating subject for study with telescopes like NASA's Hubble and Spitzer."
             },
             {
               "name": "Triangulum Galaxy",
@@ -426,7 +421,7 @@
                 "mass": "50 billion M☉",
                 "numberOfStars": "40 billion",
                 "constellation": "Triangulum",
-              "description": "The Triangulum Galaxy, also known as M33, is one of the closest spiral galaxies to the Milky Way. It lies 3 million light-years away, in the constellation Triangulum. The Triangulum Galaxy is formally described as a spiral galaxy with a weak (or possibly no) central bar and its loosely wound arms emanate from the galactic core. Its proximity and active star formation make it an important target for astronomers studying the dynamics of spiral galaxies."
+              "detail": "The Triangulum Galaxy, also known as M33, is one of the closest spiral galaxies to the Milky Way. It lies 3 million light-years away, in the constellation Triangulum. The Triangulum Galaxy is formally described as a spiral galaxy with a weak (or possibly no) central bar and its loosely wound arms emanate from the galactic core. Its proximity and active star formation make it an important target for astronomers studying the dynamics of spiral galaxies."
             },
             {
               "name": "Whirlpool Galaxy",
@@ -436,7 +431,7 @@
                 "distance": "23 Mly",
                 "mass": "160 billion M☉",
                 "constellation": "Canes Venatici",
-              "description": "The Whirlpool Galaxy, also known as M51a, is a familiar sight to stargazers and among the many close galaxy neighbors to our Milky Way. Its spiral structure and interaction with its companion galaxy, M51b, make it an ideal target for studying galaxy interactions and star formation processes. The Whirlpool Galaxy's proximity and unique features make it a popular target for amateur and professional astronomers alike."
+              "detail": "The Whirlpool Galaxy, also known as M51a, is a familiar sight to stargazers and among the many close galaxy neighbors to our Milky Way. Its spiral structure and interaction with its companion galaxy, M51b, make it an ideal target for studying galaxy interactions and star formation processes. The Whirlpool Galaxy's proximity and unique features make it a popular target for amateur and professional astronomers alike."
             }
           ]
         
