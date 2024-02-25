@@ -433,6 +433,34 @@
                 "constellation": "Canes Venatici",
               "detail": "The Whirlpool Galaxy, also known as M51a, is a familiar sight to stargazers and among the many close galaxy neighbors to our Milky Way. Its spiral structure and interaction with its companion galaxy, M51b, make it an ideal target for studying galaxy interactions and star formation processes. The Whirlpool Galaxy's proximity and unique features make it a popular target for amateur and professional astronomers alike."
             }
-          ]
-        
-          }
+          ],
+    
+    "universe": [
+        {
+            "name": "Universe",
+            "detail": "The origin and evolution of the universe is the basis for the science of cosmology. There have been many theories about how the universe got started, based on observations of distant galaxies, deductions about the amount of mass in the universe, how quickly it is moving, and the over all expansion rate of the universe. The formation event of the universe is called the Big Bang. It was the beginning of space and time, as well as the expansion of space. The early universe was in a hot, dense state that cooled as it expanded. The infant universe was shrouded until about 400 million years after the Big Bang, when the first stars began to form and the earliest galaxies developed. There are many ideas about how (and if) the universe will end. The ultimate fate of the universe will be influenced by its density (that is, how much mass it has). Currently, cosmologists think that the universe will expand forever, and eventually will spend eternity approaching absolute zero."
+        },
+        {
+            "name": "Black Holes",
+            "detail": "Black holes are among the strangest things in the universe. They are massive objects – collections of mass – with gravity so strong that nothing can escape, not even light. The most common types of black holes are the stellar-mass and supermassive black holes. Stellar-mass black holes are created when massive stars explode, leaving behind a black hole with the mass of just a few suns. Supermassive black holes exist in the hearts of galaxies and usually contain the mass equivalent of millions of suns. The massive gravitational influence of a black hole distorts space and time in the near neighbourhood. The closer you get to a black hole, the slower time runs. Material that gets too close to a black hole gets sucked in and will never escape. Material spirals in to a black hole through an accretion disk — a disk of gas, dust, stars and planets that fall into orbit the black hole."
+        },
+        {
+            "name": "Wormhole",
+            "detail": "A wormhole is a hypothetical structure connecting disparate points in spacetime, and is based on a special solution of the Einstein field equations. A wormhole can be visualized as a tunnel with two ends at separate points in spacetime (i.e., different locations, different points in time, or both). One way to imagine a wormhole is by taking a sheet of paper and draw two somewhat distant points on one side of the paper. The sheet of paper represents a plane in the spacetime continuum, and the two points represent a distance to be traveled, but theoretically, a wormhole could connect these two points by folding that plane so the points are touching. In this way, it would be much easier to traverse the distance since the two points are now touching."
+        },
+        {
+          "name": "Stars",
+          "detail": "Stars are luminous spheres made of plasma – a superheated gas threaded with a magnetic field. They are made mostly of hydrogen, which stars fuse in their cores. That process releases energy, which pushes against the weight of the outer layers of the star and keeps it stable. The energy is also released as heat and light, which are radiated out to space. Stars are the main components of galaxies, and were among the first objects to form in the early universe. The closest star to Earth is the Sun. When you look at a star (or any object in space) you are seeing how it looked in the past. The Sun appears as it was 8.5 minutes ago. The view of Alpha Centauri is 4.3 years old, while the appearance of Sirius is more than 8 years old. A dying star is called a supernova and takes the form of a massive explosion."
+            
+        },
+        {
+            
+            "name": "Nebulae",
+            "detail": "A nebula is a cloud of gas and dust in interstellar space. Every nebula contains hydrogen and helium, plus a mixture of other gases. There are several types of nebulae (plural of “nebula): molecular clouds (also known as HII regions because they are mainly hydrogen), dark nebulae, supernova remnants, and planetary nebulae. Our galaxy has many nebulae, and astronomers have found these clouds in other galaxies, as well. Most nebulae contain the “stuff of stars and planets”, including gases, dust, and complex molecules. As stars die and lose their materials to space, their gases and dust mix with clouds of gas, creating the complex nebulae we see."
+        },
+        {
+            "name": "Exoplanet",
+            "detail": "Exoplanets, also called extrasolar planets are worlds orbiting other stars. Thousands of possible exoplanets have been found through ground-based and space-based observatories. More than 4,000 exoplanets have been confirmed; with almost 3,800 candidates awaiting further observations so that astronomers can be sure that they are planets. Astronomers estimate that there could be trillions of planets around other stars. Astronomers group types of exoplanets as follows: Earth-size, Earth-like, Super-Jupiters, gas giants, rocky worlds the size of Earth, rocky giants, Super-Earths, mini-Neptunes, and gas dwarfs."
+        }
+    ]
+        }

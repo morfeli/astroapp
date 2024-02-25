@@ -12,7 +12,3 @@ struct DailyPhotoView: View {
         Text("Daily photo view")
     }
 }
-
-#Preview {
-    DailyPhotoView()
-}

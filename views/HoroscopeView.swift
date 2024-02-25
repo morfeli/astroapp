@@ -12,7 +12,3 @@ struct HoroscopeView: View {
         Text("Horoscope view")
     }
 }
-
-#Preview {
-    HoroscopeView()
-}

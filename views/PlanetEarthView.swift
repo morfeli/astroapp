@@ -12,24 +12,12 @@ import SwiftData
 struct PlanetEarthView: View {
     @Query var moons: [Moon]
 
-        
-    
     var body: some View {
         ForEach(moons) { moon in
             Text(moon.name)
                 .foregroundStyle(.black)
         }
     }
-
     
-}
-
-
-
-
-struct PlanetEarthView_Previews: PreviewProvider {
-    static var previews: some View {
-        PlanetEarthView()
-    }
 }
 

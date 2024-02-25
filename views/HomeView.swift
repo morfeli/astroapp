@@ -3,20 +3,13 @@
 //  astro
 //
 //  Created by Felipe Moreira on 1/23/24.
+
 import SwiftUI
 import SwiftData
 import SwiftUIX
 
-struct ScrollViewReachedBottomPreferenceKey: PreferenceKey {
-    static var defaultValue: Bool = false
-    static func reduce(value: inout Bool, nextValue: () -> Bool) {
-        value = nextValue()
-    }
-}
-
-
 struct HomeView: View {
-    
+
     @State var activeButton: String = "Planets"
     @State var searchKey: String = ""
     
@@ -24,17 +17,29 @@ struct HomeView: View {
         activeButton = newButton
     }
     
-  
+    @ViewBuilder
+    func astroView() -> some View {
+        switch activeButton {
+        case "Planets":
+            PlanetsView(searchKey: $searchKey)
+        case "Moons":
+            MoonsView(searchKey: $searchKey)
+        case "Solar System":
+            SolarSystemView(searchKey: $searchKey)
+        case "Galaxies":
+            GalaxiesView(searchKey: $searchKey)
+        case "Universe":
+           UniverseView(searchKey: $searchKey)
+        default:
+            PlanetsView(searchKey: $searchKey)
+        }
+    }
    
     var body: some View {
-        
-        
-    
         NavigationView {
             VStack {
                 VStack(alignment: .leading, spacing: 20) {
                     ViewTitle(text: "Explore the Universe")
-                    
                     TextField(text: $searchKey)
                         .foregroundColor(.white)
                         .fontWeight(.bold)
@@ -42,7 +47,6 @@ struct HomeView: View {
                         .background(.white.opacity(0.4))
                         .cornerRadius(12)
                         .frame(width: 270)
-                    
                         .overlay(
                             HStack() {
                                 Text(searchKey.isEmpty ? "Search" : "")
@@ -57,6 +61,7 @@ struct HomeView: View {
                                     .padding(8)
                             }
                         )
+                    
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack {
                             CustomButton(action: updateActiveButton, label: "Planets", activeButton: $activeButton)
@@ -65,26 +70,13 @@ struct HomeView: View {
                             CustomButton(action: updateActiveButton, label: "Galaxies",  activeButton: $activeButton)
                             CustomButton(action: updateActiveButton, label: "Universe",  activeButton: $activeButton)
                         }
-                        //                        .background(RoundedRectangle(cornerRadius: 25.0).fill(.white.opacity(0.3)))
+            
                     }
                 }
                 .padding(10)
-                
                     ScrollView(showsIndicators: false) {
                         LazyVGrid(columns: [GridItem(.adaptive(minimum: 150))], spacing: 18) {
-                            switch activeButton {
-                            case "Planets":
-                                PlanetsView()
-                            case "Moons":
-                                MoonsView()
-                            case "Solar System":
-                                SolarSystemView()
-                            case "Galaxies":
-                                GalaxiesView()
-                            default:
-                                PlanetsView()
-                            }
-                           
+                            astroView()
                         }
                     }
                     .mask(
@@ -111,11 +103,6 @@ struct HomeView: View {
                                     .foregroundColor(.white)
                                     .imageScale(.large)
                             })
-                            NavigationLink(destination: FavoritesView(), label: {
-                                Image(systemName: "star.circle.fill")
-                                    .foregroundColor(.white)
-                                    .imageScale(.large)
-                            })
                         }
                         .background(RoundedRectangle(cornerRadius: 25.0).fill(.white.opacity(0.3)))
                         
@@ -123,19 +110,8 @@ struct HomeView: View {
                     
                 }
                 
-                
-                
             }
             .zIndex(1)
         }
     }
-
-
-
-
-#Preview {
-    HomeView()
-   
-}
-
 

@@ -14,13 +14,18 @@ struct PlanetCard: View {
 
     
     var body: some View {
-        VStack {
-            Text(name)
-            
-        }
-            .frame(width: 170, height: 180)
-            .background(.blue)
-            .cornerRadius(20)
+        
+        
+            VStack {
+                Text(name)
+                
+            }
+                .frame(width: 170, height: 180)
+                .background(.blue)
+                .cornerRadius(20)
+                
+        
+      
          
             
         

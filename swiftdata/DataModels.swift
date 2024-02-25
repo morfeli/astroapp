@@ -260,3 +260,38 @@ class Galaxies: Decodable, Identifiable {
         
 }
 
+@Model
+class Universe: Decodable, Identifiable {
+
+    enum CodingKeys: CodingKey {
+        case name, detail, id
+    }
+    
+    var name: String
+    var detail: String
+    var id: Int?
+    
+    init(name: String, detail: String, id: Int) {
+        self.name = name
+        self.detail = detail
+        self.id = id
+    
+    }
+    
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        name = try container.decode(String.self, forKey: .name)
+        detail = try container.decode(String.self, forKey: .detail)
+        id = try container.decodeIfPresent(Int.self, forKey: .id)
+    }
+
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(name, forKey: .name)
+        try container.encode(detail, forKey: .detail)
+        try container.encode(id, forKey: .id)
+        
+}
+        
+}
+
