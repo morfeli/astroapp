@@ -85,31 +85,6 @@ struct HomeView: View {
                     Spacer()
                 }
                 .background(Image("astro-wallpaper-6"))
-                .toolbar {
-                    ToolbarItemGroup(placement: .bottomBar) {
-                        HStack(spacing: 60) {
-                            NavigationLink(destination: PlanetEarthView(), label: {
-                                Image(systemName: "globe.americas.fill")
-                                    .foregroundColor(.white)
-                                    .imageScale(.large)
-                            })
-                            NavigationLink(destination: DailyPhotoView(), label: {
-                                Image(systemName: "photo.circle.fill")
-                                    .foregroundColor(.white)
-                                    .imageScale(.large)
-                            })
-                            NavigationLink(destination: HoroscopeView(), label: {
-                                Image(systemName: "moon.stars.circle.fill")
-                                    .foregroundColor(.white)
-                                    .imageScale(.large)
-                            })
-                        }
-                        .background(RoundedRectangle(cornerRadius: 25.0).fill(.white.opacity(0.3)))
-                        
-                    }
-                    
-                }
-                
             }
             .zIndex(1)
         }
