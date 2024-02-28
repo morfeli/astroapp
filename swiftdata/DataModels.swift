@@ -13,10 +13,11 @@ import Foundation
 class Planet: Decodable, Identifiable {
 
     enum CodingKeys: CodingKey {
-        case name, id, diameter, mass, moons, orbitDistance, orbitPeriod, surfaceTemperature, discoveryDate
+        case name, id, diameter, mass, moons, orbitDistance, orbitPeriod, surfaceTemperature, discoveryDate, imageUrl
     }
     
     var name: String
+    var imageUrl: String
     var id: Int
     var diameter: String
     var mass: String
@@ -26,8 +27,9 @@ class Planet: Decodable, Identifiable {
     var surfaceTemperature: String
     var discoveryDate: String?
     
-    init(name: String, id: Int, diameter: String, mass: String, moons: String, orbitPeriod: String, orbitDistance: String, surfaceTemperature: String, discoveryDate: String) {
+    init(name: String, id: Int, diameter: String, mass: String, moons: String, orbitPeriod: String, orbitDistance: String, surfaceTemperature: String, discoveryDate: String, imageUrl: String) {
         self.name = name
+        self.imageUrl = imageUrl
         self.id = id
         self.diameter = diameter
         self.mass = mass
@@ -50,8 +52,8 @@ class Planet: Decodable, Identifiable {
         orbitPeriod = try container.decode(String.self, forKey: .orbitPeriod)
         surfaceTemperature = try container.decode(String.self, forKey: .surfaceTemperature)
         discoveryDate = try container.decodeIfPresent(String.self, forKey: .discoveryDate)
+        imageUrl = try container.decode(String.self, forKey: .imageUrl)
         
-
         
     }
 
@@ -66,6 +68,7 @@ class Planet: Decodable, Identifiable {
         try container.encode(orbitPeriod, forKey: .orbitPeriod)
         try container.encode(surfaceTemperature, forKey: .surfaceTemperature)
         try container.encode(discoveryDate, forKey: .discoveryDate)
+        try container.encode(imageUrl, forKey: .imageUrl)
 }
         
 }
@@ -75,10 +78,11 @@ class Planet: Decodable, Identifiable {
 class Moon: Decodable, Identifiable {
 
     enum CodingKeys: CodingKey {
-        case name, diameter, mass, orbits, orbitDistance, orbitPeriod, surfaceTemperature, discoveryDate
+        case name, diameter, mass, orbits, orbitDistance, orbitPeriod, surfaceTemperature, discoveryDate, imageUrl
     }
     
     var name: String
+    var imageUrl: String
     var diameter: String
     var mass: String
     var orbitDistance: String
@@ -86,8 +90,9 @@ class Moon: Decodable, Identifiable {
     var surfaceTemperature: String
     var discoveryDate: String?
     
-    init(name: String, diameter: String, mass: String, orbitPeriod: String, orbitDistance: String, surfaceTemperature: String, discoveryDate: String) {
+    init(name: String, diameter: String, mass: String, orbitPeriod: String, orbitDistance: String, surfaceTemperature: String, discoveryDate: String, imageUrl: String) {
         self.name = name
+        self.imageUrl = imageUrl
         self.diameter = diameter
         self.mass = mass
         self.orbitPeriod = orbitPeriod
@@ -106,7 +111,7 @@ class Moon: Decodable, Identifiable {
         orbitPeriod = try container.decodeIfPresent(String.self, forKey: .orbitPeriod)
         surfaceTemperature = try container.decode(String.self, forKey: .surfaceTemperature)
         discoveryDate = try container.decodeIfPresent(String.self, forKey: .discoveryDate)
-        
+        imageUrl = try container.decode(String.self, forKey: .imageUrl)
 
         
     }
@@ -120,6 +125,8 @@ class Moon: Decodable, Identifiable {
         try container.encode(orbitPeriod, forKey: .orbitPeriod)
         try container.encode(surfaceTemperature, forKey: .surfaceTemperature)
         try container.encode(discoveryDate, forKey: .discoveryDate)
+        try container.encode(imageUrl, forKey: .imageUrl)
+
 }
         
 }
@@ -131,10 +138,11 @@ class Moon: Decodable, Identifiable {
 class SolarSystem: Decodable, Identifiable {
 
     enum CodingKeys: CodingKey {
-        case name, age, mass, diameter, surfaceTemperature, detail
+        case name, age, mass, diameter, surfaceTemperature, detail, imageUrl
     }
     
     var name: String
+    var imageUrl: String
     var detail: String
     var age: String?
     var diameter: String?
@@ -142,8 +150,9 @@ class SolarSystem: Decodable, Identifiable {
     var surfaceTemperature: String?
    
     
-    init(name: String, diameter: String, mass: String, age: String, surfaceTemperature: String, detail: String) {
+    init(name: String, diameter: String, mass: String, age: String, surfaceTemperature: String, detail: String, imageUrl: String) {
         self.name = name
+        self.imageUrl = imageUrl
         self.diameter = diameter
         self.mass = mass
         self.surfaceTemperature = surfaceTemperature
@@ -160,6 +169,8 @@ class SolarSystem: Decodable, Identifiable {
         mass = try container.decodeIfPresent(String.self, forKey: .mass)
         detail = try container.decode(String.self, forKey: .detail)
         surfaceTemperature = try container.decodeIfPresent(String.self, forKey: .surfaceTemperature)
+        imageUrl = try container.decode(String.self, forKey: .imageUrl)
+
         
     }
 
@@ -171,31 +182,21 @@ class SolarSystem: Decodable, Identifiable {
         try container.encode(detail, forKey: .detail)
         try container.encode(surfaceTemperature, forKey: .surfaceTemperature)
         try container.encode(age, forKey: .age)
+        try container.encode(imageUrl, forKey: .imageUrl)
+
 }
         
 }
-
-//{
-//  "name": "Milky Way Galaxy",
-//    "type": "Barred Spiral",
-//    "diameter": "100,000 - 180,000 ly",
-//    "distanceToGalacticCentre": "27,000 ly",
-//    "mass": "800 - 1,500 M☉",
-//    "age": "13.6 Billion years",
-//    "numberOfStars": "100 - 400 billion",
-//    "constellation": "Sagittarius",
-//    "group": "Local Group",
-//    "description": "The Milky Way Galaxy is our home galaxy in the universe. It is a fairly typical barred spiral with four major arms in its disk, at least one spur, and a newly discovered outer arm. The galactic centre, which is located about 26,000 light-years from Earth, contains at least one supermassive black hole (called Sagittarius A*), and is crossed by a bar. It is also home to a diverse array of celestial objects, including star clusters, nebulae, and planetary systems."
-//},
 
 @Model
 class Galaxies: Decodable, Identifiable {
 
     enum CodingKeys: CodingKey {
-        case name,type, age, mass, diameter, detail, numberOfStars, constellation, group, distanceToGalacticCentre, designation, distance
+        case name,type, age, mass, diameter, detail, numberOfStars, constellation, group, distanceToGalacticCentre, designation, distance, imageUrl
     }
     
     var name: String
+    var imageUrl: String
     var type: String
     var detail: String
     var mass: String?
@@ -210,7 +211,7 @@ class Galaxies: Decodable, Identifiable {
 
    
     
-    init(name: String, diameter: String, mass: String, age: String, designation: String, detail: String, constellation: String, numberOfStars: String, distanceToGalacticCentre: String, type: String, group: String, distance: String) {
+    init(name: String, diameter: String, mass: String, age: String, designation: String, detail: String, constellation: String, numberOfStars: String, distanceToGalacticCentre: String, type: String, group: String, distance: String, imageUrl: String) {
         self.name = name
         self.diameter = diameter
         self.mass = mass
@@ -223,6 +224,7 @@ class Galaxies: Decodable, Identifiable {
         self.type = type
         self.group = group
         self.distance = distance
+        self.imageUrl = imageUrl
     }
     
     
@@ -240,6 +242,7 @@ class Galaxies: Decodable, Identifiable {
         type = try container.decode(String.self, forKey: .type)
         group = try container.decodeIfPresent(String.self, forKey: .group)
         distance = try container.decodeIfPresent(String.self, forKey: .distance)
+        imageUrl = try container.decode(String.self, forKey: .imageUrl)
     }
 
     func encode(to encoder: Encoder) throws {
@@ -256,6 +259,7 @@ class Galaxies: Decodable, Identifiable {
         try container.encode(numberOfStars, forKey: .numberOfStars)
         try container.encode(type, forKey: .type)
         try container.encode(distance, forKey: .distance)
+        try container.encode(imageUrl, forKey: .imageUrl)
 }
         
 }
@@ -264,17 +268,19 @@ class Galaxies: Decodable, Identifiable {
 class Universe: Decodable, Identifiable {
 
     enum CodingKeys: CodingKey {
-        case name, detail, id
+        case name, detail, id, imageUrl
     }
     
     var name: String
+    var imageUrl: String
     var detail: String
     var id: Int?
     
-    init(name: String, detail: String, id: Int) {
+    init(name: String, detail: String, id: Int, imageUrl: String) {
         self.name = name
         self.detail = detail
         self.id = id
+        self.imageUrl = imageUrl
     
     }
     
@@ -283,6 +289,7 @@ class Universe: Decodable, Identifiable {
         name = try container.decode(String.self, forKey: .name)
         detail = try container.decode(String.self, forKey: .detail)
         id = try container.decodeIfPresent(Int.self, forKey: .id)
+        imageUrl = try container.decode(String.self, forKey: .imageUrl)
     }
 
     func encode(to encoder: Encoder) throws {
@@ -290,7 +297,7 @@ class Universe: Decodable, Identifiable {
         try container.encode(name, forKey: .name)
         try container.encode(detail, forKey: .detail)
         try container.encode(id, forKey: .id)
-        
+        try container.encode(imageUrl, forKey: .imageUrl)
 }
         
 }

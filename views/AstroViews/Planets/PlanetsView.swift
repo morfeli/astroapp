@@ -31,9 +31,11 @@ struct PlanetsView: View {
         ForEach(filteredPlanets, id: \.self) { planet in
             NavigationLink(destination: PlanetDetailView(planet: planet)) {
                 PlanetCard(name: planet.name)
+                
             }
             .foregroundStyle(.white)
         }
+        
     }
 }
 

@@ -19,7 +19,7 @@ struct CustomButton: View {
             Text(label)
         }
         .padding()
-        .frame(width: .infinity, height: 38)
+        .frame(maxWidth: .infinity, maxHeight: 35)
         .background(label == activeButton ? Color.gray : Color.blue) // Change the background color when pressed
         .foregroundColor(.white)
         .cornerRadius(10)

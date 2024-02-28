@@ -46,7 +46,6 @@ struct HomeView: View {
                         .padding(8)
                         .background(.white.opacity(0.4))
                         .cornerRadius(12)
-                        .frame(width: 270)
                         .overlay(
                             HStack() {
                                 Text(searchKey.isEmpty ? "Search" : "")

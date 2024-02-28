@@ -64,7 +64,8 @@ struct ContentView: View {
                 }
               
                 
-            } .background(Image("astro-wallpaper-1"))
+            }
+            .background(Image("astro-wallpaper-1"))
         
          
            
