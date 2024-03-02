@@ -30,7 +30,7 @@ struct UniverseView: View {
     var body: some View {
         ForEach(filteredUniverse, id: \.self) { body in
             NavigationLink(destination: UniverseDetailView(universe: body)) {
-                PlanetCard(name: body.name)
+                PlanetCard(name: body.name, imageUrl: body.imageUrl)
             }
             .foregroundStyle(.white)
         }

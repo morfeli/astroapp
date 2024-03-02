@@ -29,7 +29,7 @@ struct SolarSystemView: View {
     var body: some View {
         ForEach(filteredSolarSystems, id: \.self) { solar in
             NavigationLink(destination: SolarSystemDetailView(solarSystem: solar)) {
-                PlanetCard(name: solar.name)
+                PlanetCard(name: solar.name, imageUrl: solar.imageUrl)
             }
             .foregroundStyle(.white)
             

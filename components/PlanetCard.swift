@@ -11,27 +11,40 @@ struct PlanetCard: View {
     
     var name: String
     var moons: String?
+    var imageUrl: String
 
     
     var body: some View {
+        VStack {
+                AsyncImage(url: URL(string: imageUrl)) { image in
+                    image.image?
+                        .resizable()
+                        .scaledToFit()
+                        .opacity(0.7)
+                }
         
-        
-            VStack {
-                Text(name)
-                
+                  
             }
-                .frame(width: 170, height: 180)
-                .background(.blue)
-                .cornerRadius(20)
-                
-        
-      
-         
-            
-        
+            .frame(width: 170, height: 180)
+            .background(Image("card"))
+            .cornerRadius(20)
+            .overlay {
+                VStack {
+                    Spacer()
+                    HStack {
+                        Spacer()
+                        Text(name)
+                            .font(.subheadline)
+                            .foregroundStyle(.white)
+                            .padding(10)
+                    }
+                      
+                }
+           
+            }
     }
 }
 
 #Preview {
-    PlanetCard(name: "", moons: "")
+    PlanetCard(name: "Moon", imageUrl: "https://nineplanets.org/wp-content/uploads/2020/03/venus.png")
 }

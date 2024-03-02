@@ -83,7 +83,7 @@ struct HomeView: View {
                     )
                     Spacer()
                 }
-                .background(Image("astro-wallpaper-6"))
+                .background(Image("astro-wallpaper-4"))
             }
             .zIndex(1)
         }

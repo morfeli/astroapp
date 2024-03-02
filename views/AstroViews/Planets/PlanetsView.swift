@@ -28,9 +28,9 @@ struct PlanetsView: View {
   }
     
     var body: some View {
-        ForEach(filteredPlanets, id: \.self) { planet in
+        ForEach(filteredPlanets, id: \.self.id) { planet in
             NavigationLink(destination: PlanetDetailView(planet: planet)) {
-                PlanetCard(name: planet.name)
+                PlanetCard(name: planet.name, imageUrl: planet.imageUrl)
                 
             }
             .foregroundStyle(.white)

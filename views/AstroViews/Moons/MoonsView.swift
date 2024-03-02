@@ -30,7 +30,7 @@ struct MoonsView: View {
     var body: some View {
         ForEach(filteredMoons, id: \.self) { moon in
             NavigationLink(destination: MoonDetailView(moon:moon)) {
-                PlanetCard(name: moon.name)
+                PlanetCard(name: moon.name, imageUrl: moon.imageUrl)
             }
             .foregroundStyle(.white)
             

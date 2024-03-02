@@ -29,7 +29,7 @@ struct GalaxiesView: View {
     var body: some View {
         ForEach(filteredGalaxies, id: \.self) { galaxy in
             NavigationLink(destination: GalaxyDetailView(galaxy: galaxy)) {
-                PlanetCard(name: galaxy.name)
+                PlanetCard(name: galaxy.name, imageUrl: galaxy.imageUrl)
             }
             .foregroundStyle(.white)
         }
