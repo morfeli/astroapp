@@ -9,6 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
+
 struct astroApp: App {
     
     var body: some Scene {
@@ -16,11 +17,7 @@ struct astroApp: App {
         WindowGroup {
             ContentView()
                 .modelContainer(for: [Planet.self, Moon.self, SolarSystem.self, Galaxies.self, Universe.self])
-                           
-                   }
-               }
+            
         }
-    
-
-
-
+    }
+}

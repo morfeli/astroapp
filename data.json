@@ -11,7 +11,7 @@
       "orbitPeriod": "88 days",
       "surfaceTemperature": "-173 to 427°C",
       "discoveryDate": "March 13th 1781",
-      "description": "Mercury is the closest planet to the Sun, and the smallest planet in our solar system - only slightly larger than Earth's Moon. It's surface is covered in tens of thousands of impact craters. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as 11 times brighter. Mercury is the fastest planet, zipping around the Sun every 88 Earth days."
+      "detail": "Mercury is the closest planet to the Sun, and the smallest planet in our solar system - only slightly larger than Earth's Moon. It's surface is covered in tens of thousands of impact craters. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as 11 times brighter. Mercury is the fastest planet, zipping around the Sun every 88 Earth days."
 
     },
     {
@@ -25,7 +25,7 @@
       "orbitPeriod": "225 days",
       "surfaceTemperature": "462 °C",
       "discoveryDate": "March 13th 1781",
-      "description": "Venus is the second planet from the Sun, and the sixth largest planet. It’s the hottest planet in our solar system. Our nearest planetary neighbor, the second planet from the Sun, has a surface hot enough to melt lead. The atmosphere is so thick that, from the surface, the Sun is just a smear of light. The present-day surface of volcanic rock is blasted by high temperatures and pressures."
+      "detail": "Venus is the second planet from the Sun, and the sixth largest planet. It’s the hottest planet in our solar system. Our nearest planetary neighbor, the second planet from the Sun, has a surface hot enough to melt lead. The atmosphere is so thick that, from the surface, the Sun is just a smear of light. The present-day surface of volcanic rock is blasted by high temperatures and pressures."
 
       
     },
@@ -39,10 +39,9 @@
       "moons": "1 (The Moon)",
       "orbitDistance": "149,598,262 km (1 AU)",
       "orbitPeriod": "365.24 days",
-      "surfaceTemperature": "-88 to 58°C"
-      "description": "Earth, our home planet, is the third planet from the Sun, and the fifth largest planet. It's the only place we know of inhabited by living things. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal. Earth's atmosphere is 78 percent nitrogen, 21 percent oxygen and 1 percent other ingredients—the perfect balance to breathe and live. Our atmosphere protects us from incoming meteoroids, most of which break up in our atmosphere before they can strike the surface."
+      "surfaceTemperature": "-88 to 58°C",
+      "detail": "Earth, our home planet, is the third planet from the Sun, and the fifth largest planet. It's the only place we know of inhabited by living things. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal. Earth's atmosphere is 78 percent nitrogen, 21 percent oxygen and 1 percent other ingredients—the perfect balance to breathe and live. Our atmosphere protects us from incoming meteoroids, most of which break up in our atmosphere before they can strike the surface."
       
-
     },
     {
       "name": "Mars",
@@ -56,7 +55,7 @@
       "orbitPeriod": "687 days (1.9 years)",
       "surfaceTemperature": "-87 to -5 °C",
       "discoveryDate": "March 13th 1781",
-      "description:": "Mars, the fourth planet from the Sun, is a dusty, cold, desert world with a very thin atmosphere. This dynamic planet has seasons, polar ice caps, extinct volcanoes, canyons and weather. Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape. NASA missions have found lots of evidence that Mars was much wetter and warmer, with a thicker atmosphere, billions of years ago. A year on Mars lasts 669.6 sols, which is the same as 687 Earth days."
+      "detail": "Mars, the fourth planet from the Sun, is a dusty, cold, desert world with a very thin atmosphere. This dynamic planet has seasons, polar ice caps, extinct volcanoes, canyons and weather. Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape. NASA missions have found lots of evidence that Mars was much wetter and warmer, with a thicker atmosphere, billions of years ago. A year on Mars lasts 669.6 sols, which is the same as 687 Earth days."
 
     },
     {
@@ -72,9 +71,7 @@
       "orbitPeriod": "4,333 days (11.9 years)",
       "surfaceTemperature": "-108°C",
       "discoveryDate": "March 13th 1781",
-      "description": "Jupiter is a world of extremes. It's the largest planet in our solar system – if it were a hollow shell, 1,000 Earths could fit inside. It's also the oldest planet, forming from the dust and gases left over from the Sun's formation 4.5 billion years ago. But it has the shortest day in the solar system, taking only 10.5 hours to spin around once on its axis. Jupiter's signature stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. The dark orange stripes are called belts, while the lighter bands are called zones, and they flow east and west in opposite directions."
-
-      
+      "detail": "Jupiter is a world of extremes. It's the largest planet in our solar system – if it were a hollow shell, 1,000 Earths could fit inside. It's also the oldest planet, forming from the dust and gases left over from the Sun's formation 4.5 billion years ago. But it has the shortest day in the solar system, taking only 10.5 hours to spin around once on its axis. Jupiter's signature stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. The dark orange stripes are called belts, while the lighter bands are called zones, and they flow east and west in opposite directions."
     },
     {
       "name": "Saturn",
@@ -89,7 +86,7 @@
       "orbitPeriod": "10,756 days (29.5 years)",
       "surfaceTemperature": "-139 °C",
       "discoveryDate": "March 13th 1781",
-      "description": "Saturn is the sixth planet from the Sun, and the second-largest planet in our solar system. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. Saturn is not the only planet to have rings, but none are as spectacular or as complex as Saturn's. Saturn also has dozens of moons. Saturn's rings are thought to be pieces of comets, asteroids, or shattered moons that broke up before they reached the planet, torn apart by Saturn's powerful gravity."
+      "detail": "Saturn is the sixth planet from the Sun, and the second-largest planet in our solar system. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. Saturn is not the only planet to have rings, but none are as spectacular or as complex as Saturn's. Saturn also has dozens of moons. Saturn's rings are thought to be pieces of comets, asteroids, or shattered moons that broke up before they reached the planet, torn apart by Saturn's powerful gravity."
 
       
     },
@@ -106,7 +103,7 @@
       "orbitPeriod": "30,687 days (84.0 years)",
       "surfaceTemperature": "-197 °C",
       "discoveryDate": "March 13th 1781",
-      "desription": "Uranus is the seventh planet from the Sun, and it has the third largest diameter of planets in our solar system. Uranus appears to spin sideways. Uranus is a very cold and windy world. The ice giant is surrounded by 13 faint rings and 28 small moons. Uranus rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin sideways, orbiting the Sun like a rolling ball. Uranus has two sets of rings."
+      "detail": "Uranus is the seventh planet from the Sun, and it has the third largest diameter of planets in our solar system. Uranus appears to spin sideways. Uranus is a very cold and windy world. The ice giant is surrounded by 13 faint rings and 28 small moons. Uranus rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin sideways, orbiting the Sun like a rolling ball. Uranus has two sets of rings."
       
     },
     {
@@ -122,7 +119,7 @@
       "orbitPeriod": "60,190 days (164.8 years)",
       "surfaceTemperature": "-201 °C",
       "discoveryDate": "September 23rd 1846",
-      "description": "Neptune is the eighth and most distant planet in our solar system. Dark, cold, and whipped by supersonic winds, ice giant Neptune is more than 30 times as far from the Sun as Earth. Neptune is the only planet in our solar system not visible to the naked eye. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846. Neptune has at least five main rings and four prominent ring arcs that we know of so far."
+      "detail": "Neptune is the eighth and most distant planet in our solar system. Dark, cold, and whipped by supersonic winds, ice giant Neptune is more than 30 times as far from the Sun as Earth. Neptune is the only planet in our solar system not visible to the naked eye. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846. Neptune has at least five main rings and four prominent ring arcs that we know of so far."
       
     }
   ],
@@ -134,7 +131,7 @@
           "mass": "7.35 × 10^22 kg (0.01 Earths)",
           "orbits": "The Earth",
           "orbitDistance": "384,400 km",
-          "orbitPeriod": "27.3 days",
+          "orbitLength": "27.3 days",
           "surfaceTemperature": "-233 to 123 °C"
       },
       {
@@ -144,7 +141,7 @@
           "mass": "1.07 × 10^16 kg (0.00001% Moon)",
           "orbits": "Mars",
           "orbitDistance": "9,376 km",
-          "orbitPeriod": "7.7 hours",
+          "orbitLength": "7.7 hours",
           "surfaceTemperature": "-40 °C",
           "discoveryDate": "August 17, 1877",
           
@@ -156,7 +153,7 @@
           "mass": "1.48 × 10^15 kg (0.000002% Moon)",
           "orbits": "Mars",
           "orbitDistance": "23,458 km",
-          "orbitPeriod": "1.3 days",
+          "orbitLength": "1.3 days",
           "surfaceTemperature": "-40 °C",
           "discoveryDate": "August 12, 1877",
           
@@ -168,7 +165,7 @@
           "mass": "8.93 x 10^22 kg (1.2 Moons)",
           "orbits": "Jupiter",
           "orbitDistance": "421,800 km",
-          "orbitPeriod": "1.77 days",
+          "orbitLength": "1.77 days",
           "surfaceTemperature": "-163 °C",
           "discoveryDate": "January 8, 1610",
           
@@ -180,7 +177,7 @@
           "mass": "4.80 x 10^22 kg (65.2% Moon)",
           "orbits": "Jupiter",
           "orbitDistance": "671,100 km",
-          "orbitPeriod": "3.55 days",
+          "orbitLength": "3.55 days",
           "surfaceTemperature": "-171 °C",
           "discoveryDate": "January 8, 1610",
           
@@ -192,7 +189,7 @@
           "mass": "1.48 x 10^23 kg (2.0 Moons)",
           "orbits": "Jupiter",
           "orbitDistance": "1,070,400 km",
-          "orbitPeriod": "7.16 days",
+          "orbitLength": "7.16 days",
           "surfaceTemperature": "-163 °C",
           "discoveryDate": "January 7, 1610",
           
@@ -204,7 +201,7 @@
           "mass": "1.08 x 10^23 kg (1.5 Moons)",
           "orbits": "Jupiter",
           "orbitDistance": "1,882,700 km",
-          "orbitPeriod": "16.69 days",
+          "orbitLength": "16.69 days",
           "surfaceTemperature": "-139 °C",
           "discoveryDate": "January 7, 1610",
           
@@ -264,7 +261,7 @@
           "mass": "6.59 × 10^19 (0.09% Moon)",
           "orbits": "Uranus",
           "orbitDistance": "129,900 km",
-          "orbitPeriod": "1.4 days",
+          "orbitLength": "1.4 days",
           "surfaceTemperature": "213 °C",
           "discoveryDate": "February 16, 1948",
           
@@ -289,22 +286,9 @@
           "mass": "2.14 × 10^22 kg (29.1% Moon)",
           "orbits": "Neptune",
           "orbitDistance": "354,759 km",
-          "orbitPeriod": "5.9 days (retrograde)",
+          "orbitLength": "5.9 days",
           "surfaceTemperature": "-135 °C",
           "discoveryDate": "October 10, 1846",
-          
-      },
-      {
-          "name": "Charon",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Pluto-transparent.png?20151126043811",
-          "diameter": "1,207.2 km",
-          "mass": "1.55 × 10^21 kg (2.1% Moon)",
-          "orbits": "Pluto - Charon Barycentre",
-          "orbitDistance": "17,536 km",
-          "plutoDistance": "19,596 km",
-          "orbitLength": "6.4 days",
-          "surfaceTemperature": "−220 °C",
-          "discoveryDate": "June 22, 1978",
           
       }
   ],

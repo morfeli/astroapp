@@ -13,7 +13,7 @@ import Foundation
 class Planet: Decodable, Identifiable {
 
     enum CodingKeys: CodingKey {
-        case name, id, diameter, mass, moons, orbitDistance, orbitPeriod, surfaceTemperature, discoveryDate, imageUrl
+        case name, id, diameter, mass, moons, orbitDistance, orbitPeriod, surfaceTemperature, discoveryDate, imageUrl, detail
     }
     
     var name: String
@@ -25,9 +25,10 @@ class Planet: Decodable, Identifiable {
     var orbitDistance: String
     var orbitPeriod: String
     var surfaceTemperature: String
+    var detail: String
     var discoveryDate: String?
     
-    init(name: String, id: Int, diameter: String, mass: String, moons: String, orbitPeriod: String, orbitDistance: String, surfaceTemperature: String, discoveryDate: String, imageUrl: String) {
+    init(name: String, id: Int, diameter: String, mass: String, moons: String, orbitPeriod: String, orbitDistance: String, surfaceTemperature: String, discoveryDate: String, imageUrl: String, detail: String) {
         self.name = name
         self.imageUrl = imageUrl
         self.id = id
@@ -38,6 +39,7 @@ class Planet: Decodable, Identifiable {
         self.orbitDistance = orbitDistance
         self.surfaceTemperature = surfaceTemperature
         self.discoveryDate = discoveryDate
+        self.detail = detail
     }
     
     
@@ -53,6 +55,7 @@ class Planet: Decodable, Identifiable {
         surfaceTemperature = try container.decode(String.self, forKey: .surfaceTemperature)
         discoveryDate = try container.decodeIfPresent(String.self, forKey: .discoveryDate)
         imageUrl = try container.decode(String.self, forKey: .imageUrl)
+        detail = try container.decode(String.self, forKey: .detail)
         
         
     }
@@ -69,6 +72,7 @@ class Planet: Decodable, Identifiable {
         try container.encode(surfaceTemperature, forKey: .surfaceTemperature)
         try container.encode(discoveryDate, forKey: .discoveryDate)
         try container.encode(imageUrl, forKey: .imageUrl)
+        try container.encode(detail, forKey: .detail)
 }
         
 }
@@ -78,7 +82,7 @@ class Planet: Decodable, Identifiable {
 class Moon: Decodable, Identifiable {
 
     enum CodingKeys: CodingKey {
-        case name, diameter, mass, orbits, orbitDistance, orbitPeriod, surfaceTemperature, discoveryDate, imageUrl
+        case name, diameter, mass, orbits, orbitDistance, orbitLength, surfaceTemperature, discoveryDate, imageUrl
     }
     
     var name: String
@@ -86,19 +90,21 @@ class Moon: Decodable, Identifiable {
     var diameter: String
     var mass: String
     var orbitDistance: String
-    var orbitPeriod: String?
+    var orbitLength: String
     var surfaceTemperature: String
     var discoveryDate: String?
+    var orbits: String
     
-    init(name: String, diameter: String, mass: String, orbitPeriod: String, orbitDistance: String, surfaceTemperature: String, discoveryDate: String, imageUrl: String) {
+    init(name: String, diameter: String, mass: String, orbitLength: String, orbitDistance: String, surfaceTemperature: String, discoveryDate: String, imageUrl: String, orbits: String) {
         self.name = name
         self.imageUrl = imageUrl
         self.diameter = diameter
         self.mass = mass
-        self.orbitPeriod = orbitPeriod
+        self.orbitLength = orbitLength
         self.orbitDistance = orbitDistance
         self.surfaceTemperature = surfaceTemperature
         self.discoveryDate = discoveryDate
+        self.orbits = orbits
     }
     
     
@@ -108,10 +114,11 @@ class Moon: Decodable, Identifiable {
         diameter = try container.decode(String.self, forKey: .diameter)
         mass = try container.decode(String.self, forKey: .mass)
         orbitDistance = try container.decode(String.self, forKey: .orbitDistance)
-        orbitPeriod = try container.decodeIfPresent(String.self, forKey: .orbitPeriod)
+        orbitLength = try container.decode(String.self, forKey: .orbitLength)
         surfaceTemperature = try container.decode(String.self, forKey: .surfaceTemperature)
         discoveryDate = try container.decodeIfPresent(String.self, forKey: .discoveryDate)
         imageUrl = try container.decode(String.self, forKey: .imageUrl)
+        orbits = try container.decode(String.self, forKey: .orbits)
 
         
     }
@@ -122,10 +129,11 @@ class Moon: Decodable, Identifiable {
         try container.encode(diameter, forKey: .diameter)
         try container.encode(mass, forKey: .mass)
         try container.encode(orbitDistance, forKey: .orbitDistance)
-        try container.encode(orbitPeriod, forKey: .orbitPeriod)
+        try container.encode(orbitLength, forKey: .orbitLength)
         try container.encode(surfaceTemperature, forKey: .surfaceTemperature)
         try container.encode(discoveryDate, forKey: .discoveryDate)
         try container.encode(imageUrl, forKey: .imageUrl)
+        try container.encode(orbits, forKey: .orbits)
 
 }
         
