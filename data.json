@@ -344,9 +344,7 @@
               "name": "Milky Way Galaxy",
               "imageUrl": "https://space-facts.com/wp-content/uploads/milky-way.png",
                 "type": "Barred Spiral",
-                "diameter": "100,000 - 180,000 ly",
-                "distanceToGalacticCentre": "27,000 ly",
-                "mass": "800 - 1,500 M☉",
+                "diameter": "100,000 ly",
                 "age": "13.6 Billion years",
                 "numberOfStars": "100 - 400 billion",
                 "constellation": "Sagittarius",
@@ -360,11 +358,10 @@
                 "type": "Spiral",
                 "diameter": "220,000 ly",
                 "distance": "2.54 Mly",
-                "mass": "1,230 billion M☉",
                 "numberOfStars": "1 trillion",
                 "constellation": "Andromeda",
                 "group": "Local Group",
-              "detail": "The Andromeda Galaxy (M31) is the closest large galaxy to the Milky Way and is one of a few galaxies that can be seen unaided from the Earth. In approximately 4.5 billion years, the Andromeda Galaxy and the Milky Way are expected to collide and the result will be a giant elliptical galaxy. Andromeda is accompanied by 14 dwarf galaxies, including M32, M110, and possibly M33 (The Triangulum Galaxy). Its spiral structure and vast population of stars make it a fascinating subject for astronomers."
+                "detail": "The Andromeda Galaxy (M31) is the closest large galaxy to the Milky Way and is one of a few galaxies that can be seen unaided from the Earth. In approximately 4.5 billion years, the Andromeda Galaxy and the Milky Way are expected to collide and the result will be a giant elliptical galaxy. Andromeda is accompanied by 14 dwarf galaxies, including M32, M110, and possibly M33 (The Triangulum Galaxy). Its spiral structure and vast population of stars make it a fascinating subject for astronomers."
             },
             {
               "name": "Messier 87 Galaxy",
@@ -373,7 +370,6 @@
                 "type": "Elliptical",
                 "diameter": "120,000 ly",
                 "distance": "53 Mly",
-                "mass": "2,400 billion M☉",
                 "numberOfStars": "1 trillion",
                 "constellation": "Virgo",
                 "group": "Virgo Cluster",
@@ -385,81 +381,78 @@
                 "designation": "NGC 4038 & NGC 4039",
                 "type": "Interacting Spirals",
                 "distance": "45 Mly",
+                "numberOfStars": "300 billion",
                 "constellation": "Corvus",
                 "group": "Virgo Cluster",
-              "detail": "The Antennae is a pair of spiral galaxies that are interacting and mingling their stars. They began their galactic dance over a few hundred million years ago and are currently in a period where their colliding gas clouds are bursting with new star formation. As the two galaxies merge, their gravitational interactions pull long tails of gas away from each other, and these tails are the sites of starburst activity. In a few billion years, the cores of these two galaxies will be combined into one large core, with a supermassive black hole at its heart. It will be surrounded by an elliptical galaxy of old stars."
+                "detail": "The Antennae is a pair of spiral galaxies that are interacting and mingling their stars. They began their galactic dance over a few hundred million years ago and are currently in a period where their colliding gas clouds are bursting with new star formation. As the two galaxies merge, their gravitational interactions pull long tails of gas away from each other, and these tails are the sites of starburst activity. In a few billion years, the cores of these two galaxies will be combined into one large core, with a supermassive black hole at its heart. It will be surrounded by an elliptical galaxy of old stars."
             },
             {
               "name": "Large Magellanic Cloud",
-              "imageUrl": "https://www.nasa.gov/wp-content/uploads/2023/03/721196main_721020main_heic1301a_full.jpg?w=1041",
+                "imageUrl": "https://www.nasa.gov/wp-content/uploads/2023/03/721196main_721020main_heic1301a_full.jpg?w=1041",
                 "designation": "LMC",
                 "type": "Disrupted Barred Spiral",
                 "diameter": "14,000 ly",
                 "distance": "163,000 ly",
-                "mass": "10 billion M☉",
                 "numberOfStars": "30 billion",
                 "constellation": "Dorado & Mensa",
                 "group": "Local Group",
-              "detail": "The Large Magellanic Cloud (LMC) is a nearby satellite galaxy of the Milky Way. Despite its irregular shape, it harbors a wealth of astronomical phenomena, including young star clusters, nebulae, and supernova remnants. The LMC's proximity to our own galaxy makes it an excellent target for observational studies, providing insights into the processes of star formation and galactic evolution."
+                "detail": "The Large Magellanic Cloud (LMC) is a nearby satellite galaxy of the Milky Way. Despite its irregular shape, it harbors a wealth of astronomical phenomena, including young star clusters, nebulae, and supernova remnants. The LMC's proximity to our own galaxy makes it an excellent target for observational studies, providing insights into the processes of star formation and galactic evolution."
             },
             {
               "name": "Small Magellanic Cloud",
-              "imageUrl": "https://www.nasa.gov/wp-content/uploads/2023/03/pia16884_-_taken_under_the_wing_of_the_small_magellanic_cloud.jpg",
+                "imageUrl": "https://www.nasa.gov/wp-content/uploads/2023/03/pia16884_-_taken_under_the_wing_of_the_small_magellanic_cloud.jpg",
                 "designation": "SMC",
                 "type": "Dwarf Galaxy",
                 "diameter": "7,000 ly",
                 "distance": "197,000 ly",
-                "mass": "6.5 billion M☉",
                 "numberOfStars": "3 billion",
                 "constellation": "Tucana & Hydrus",
                 "group": "Local Group",
-              "detail": "The Small Magellanic Cloud (SMC) is another satellite galaxy of the Milky Way. Despite its smaller size, it shares many characteristics with its larger sibling, including a high rate of star formation and a complex structure shaped by gravitational interactions with the Milky Way. The SMC's proximity to the LMC and the Milky Way makes it an important target for astronomers studying galaxy interactions and the formation of stellar populations."
+                "detail": "The Small Magellanic Cloud (SMC) is another satellite galaxy of the Milky Way. Despite its smaller size, it shares many characteristics with its larger sibling, including a high rate of star formation and a complex structure shaped by gravitational interactions with the Milky Way. The SMC's proximity to the LMC and the Milky Way makes it an important target for astronomers studying galaxy interactions and the formation of stellar populations."
             },
             {
-              "name": "Pinwheel Galaxy",
-              "imageUrl": "https://theplanets.org/123/2017/02/226_01_full-1024x684.jpg",
+                "name": "Pinwheel Galaxy",
+                "imageUrl": "https://theplanets.org/123/2017/02/226_01_full-1024x684.jpg",
                 "designation": "M101 or NGC 5457",
                 "type": "Spiral",
                 "diameter": "170,000 ly",
                 "distance": "21 Mly",
-                "mass": "1,000 billion M☉",
-                "numberOfStars": "1 trillion",
+                "numberOfStars": "100 billion",
                 "constellation": "Ursa Major",
-              "detail": "The Pinwheel Galaxy, also known as M101, is a 'grand design' spiral galaxy with well-defined spiral arms and dust lanes that extend all the way around the body of the galaxy. It was discovered in 1781 and is notable for its extensive regions of active star formation, known as HII regions. The Pinwheel Galaxy's proximity and distinct morphology make it a popular target for amateur and professional astronomers alike."
+                "detail": "The Pinwheel Galaxy, also known as M101, is a grand design spiral galaxy with well-defined spiral arms and dust lanes that extend all the way around the body of the galaxy. It was discovered in 1781 and is notable for its extensive regions of active star formation, known as HII regions. The Pinwheel Galaxy's proximity and distinct morphology make it a popular target for amateur and professional astronomers alike."
             },
             {
-              "name": "Sombrero Galaxy",
-              "imageUrl": "https://science.nasa.gov/wp-content/uploads/2023/04/sombrero-galaxy-hubble-jpg.webp?w=2560&format=webp",
+                "name": "Sombrero Galaxy",
+                "imageUrl": "https://science.nasa.gov/wp-content/uploads/2023/04/sombrero-galaxy-hubble-jpg.webp?w=2560&format=webp",
                 "designation": "M104 or NGC 4594",
                 "type": "Spiral",
                 "diameter": "50,000 ly",
                 "distance": "29 Mly",
-                "mass": "800 billion M☉",
+                "numberOfStars": "100 billion",
                 "constellation": "Virgo",
-              "detail": "The Sombrero Galaxy, also known as M104, is one of the most unusual looking barred spiral galaxies visible from Earth. Its bright nucleus, large central bulge, and prominent dust lane make it resemble a sombrero hat. The dust lane is rich with gas and dust, providing fertile ground for star formation. The Sombrero Galaxy's unique appearance and active star formation make it a fascinating subject for study with telescopes like NASA's Hubble and Spitzer."
+                "detail": "The Sombrero Galaxy, also known as M104, is one of the most unusual looking barred spiral galaxies visible from Earth. Its bright nucleus, large central bulge, and prominent dust lane make it resemble a sombrero hat. The dust lane is rich with gas and dust, providing fertile ground for star formation. The Sombrero Galaxy's unique appearance and active star formation make it a fascinating subject for study with telescopes like NASA's Hubble and Spitzer."
             },
             {
-              "name": "Triangulum Galaxy",
-              "imageUrl": "https://www.nasa.gov/wp-content/uploads/2023/03/archives_m33_0.jpg",
+                "name": "Triangulum Galaxy",
+                "imageUrl": "https://www.nasa.gov/wp-content/uploads/2023/03/archives_m33_0.jpg",
                 "designation": "M33 or NGC 598",
                 "type": "Spiral",
                 "diameter": "60,000 ly",
                 "distance": "3 Mly",
-                "mass": "50 billion M☉",
                 "numberOfStars": "40 billion",
                 "constellation": "Triangulum",
-              "detail": "The Triangulum Galaxy, also known as M33, is one of the closest spiral galaxies to the Milky Way. It lies 3 million light-years away, in the constellation Triangulum. The Triangulum Galaxy is formally described as a spiral galaxy with a weak (or possibly no) central bar and its loosely wound arms emanate from the galactic core. Its proximity and active star formation make it an important target for astronomers studying the dynamics of spiral galaxies."
+                "detail": "The Triangulum Galaxy, also known as M33, is one of the closest spiral galaxies to the Milky Way. It lies 3 million light-years away, in the constellation Triangulum. The Triangulum Galaxy is formally described as a spiral galaxy with a weak (or possibly no) central bar and its loosely wound arms emanate from the galactic core. Its proximity and active star formation make it an important target for astronomers studying the dynamics of spiral galaxies."
             },
             {
-              "name": "Whirlpool Galaxy",
-              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Messier51_sRGB.jpg/2560px-Messier51_sRGB.jpg",
+                "name": "Whirlpool Galaxy",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Messier51_sRGB.jpg/2560px-Messier51_sRGB.jpg",
                 "designation": "M51a or NGC 5194",
                 "type": "Spiral",
                 "diameter": "60,000 ly",
                 "distance": "23 Mly",
-                "mass": "160 billion M☉",
                 "constellation": "Canes Venatici",
-              "detail": "The Whirlpool Galaxy, also known as M51a, is a familiar sight to stargazers and among the many close galaxy neighbors to our Milky Way. Its spiral structure and interaction with its companion galaxy, M51b, make it an ideal target for studying galaxy interactions and star formation processes. The Whirlpool Galaxy's proximity and unique features make it a popular target for amateur and professional astronomers alike."
+                "numberOfStars": "100 billion",
+                "detail": "The Whirlpool Galaxy, also known as M51a, is a familiar sight to stargazers and among the many close galaxy neighbors to our Milky Way. Its spiral structure and interaction with its companion galaxy, M51b, make it an ideal target for studying galaxy interactions and star formation processes. The Whirlpool Galaxy's proximity and unique features make it a popular target for amateur and professional astronomers alike."
             }
           ],
     
@@ -493,8 +486,8 @@
         },
         {
             "name": "Exoplanet",
-            "imageUrl": "https://exoplanets.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbHNNIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--adf1b7f6e0ed183792b1e2ab8f4dd28a5014a665/26a_big-vlt-s.jpg?disposition=inline",
-            "detail": "Exoplanets, also called extrasolar planets are worlds orbiting other stars. Thousands of possible exoplanets have been found through ground-based and space-based observatories. More than 4,000 exoplanets have been confirmed; with almost 3,800 candidates awaiting further observations so that astronomers can be sure that they are planets. Astronomers estimate that there could be trillions of planets around other stars. Astronomers group types of exoplanets as follows: Earth-size, Earth-like, Super-Jupiters, gas giants, rocky worlds the size of Earth, rocky giants, Super-Earths, mini-Neptunes, and gas dwarfs."
+            "imageUrl": "https://exoplanets.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbHNNIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--adf1b7f6e0ed183792b1e2ab8f4dd28a5014a665/26a_big-vlt-s  .jpg?disposition=inline",
+                "detail": "Exoplanets, also called extrasolar planets are worlds orbiting other stars. Thousands of possible exoplanets have been found through ground-based and space-based observatories. More than 4,000 exoplanets have been confirmed; with almost 3,800 candidates awaiting further observations so that astronomers can be sure that they are planets. Astronomers estimate that there could be trillions of planets around other stars. Astronomers group types of exoplanets as follows: Earth-size, Earth-like, Super-Jupiters, gas giants, rocky worlds the size of Earth, rocky giants, Super-Earths, mini-Neptunes, and gas dwarfs."
         }
     ]
         }

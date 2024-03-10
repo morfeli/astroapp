@@ -15,12 +15,9 @@ struct PlanetDetailView: View {
           
       }
     
-    
     var body: some View {
         ZStack {
-      
-            VStack {
-
+            VStack() {
                 Text(planet.name)
                     .font(.title)
                     .fontWeight(.bold)
@@ -30,7 +27,7 @@ struct PlanetDetailView: View {
                 AsyncImage(url: URL(string: planet.imageUrl)) { image in
                     image.image?
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .aspectRatio(contentMode: .fill)
                         
                 }
                 .shadow(color: Color.white.opacity(0.5), radius: 10, x: 0, y: 5)
@@ -38,12 +35,11 @@ struct PlanetDetailView: View {
                 Text(planet.detail)
                     .font(.system(size: 14))
                     .multilineTextAlignment(.leading)
-                
-                
-                Divider()
+                    .padding(8)
+                    .background(.black.opacity(0.5))
+                    .cornerRadius(10)
                 
                 VStack(spacing: 15) {
-                    
                     DetailCard(title: "Moons", detail: planet.moons == "None" ? "0" : planet.moons)
                     DetailCard(title: "Diameter", detail: planet.diameter)
                     DetailCard(title: "Mass", detail: planet.mass)
@@ -53,7 +49,6 @@ struct PlanetDetailView: View {
                 
                     if let discoveryDate = planet.discoveryDate {
                      DetailCard(title: "Discovery Date", detail: discoveryDate)
-                       
                   }
                         
               }
@@ -61,19 +56,9 @@ struct PlanetDetailView: View {
                 .background(.black.opacity(0.5))
                 .cornerRadius(10)
             }
-            
-            
-            
-
-       
-        
-            
-        
         }
         .padding()
         .foregroundStyle(.white)
         .background(Image("astro-wallpaper-6"))
     }
 }
-
-

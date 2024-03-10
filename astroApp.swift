@@ -9,7 +9,6 @@ import SwiftUI
 import SwiftData
 
 @main
-
 struct astroApp: App {
     
     var body: some Scene {

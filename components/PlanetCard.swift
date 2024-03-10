@@ -10,7 +10,6 @@ import SwiftUI
 struct PlanetCard: View {
     
     var name: String
-    var moons: String?
     var imageUrl: String
 
     
@@ -19,14 +18,14 @@ struct PlanetCard: View {
                 AsyncImage(url: URL(string: imageUrl)) { image in
                     image.image?
                         .resizable()
-                        .scaledToFit()
+                        .scaledToFill()
                         .opacity(0.7)
                 }
         
                   
             }
             .frame(width: 170, height: 180)
-            .background(Image("card"))
+            .background(.black.opacity(0.7))
             .cornerRadius(20)
             .overlay {
                 VStack {
@@ -36,7 +35,8 @@ struct PlanetCard: View {
                         Text(name)
                             .font(.subheadline)
                             .foregroundStyle(.white)
-                            .padding(10)
+                            .padding(.trailing, 10)
+                            .padding(.bottom, 5)
                     }
                       
                 }
