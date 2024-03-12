@@ -16,7 +16,8 @@ struct astroApp: App {
         WindowGroup {
             ContentView()
                 .modelContainer(for: [Planet.self, Moon.self, SolarSystem.self, Galaxies.self, Universe.self])
-            
+    
+            }
         }
     }
-}
+

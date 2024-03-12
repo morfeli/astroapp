@@ -35,9 +35,10 @@ struct GalaxyDetailView: View {
                 Text(galaxy.detail)
                     .font(.system(size: 14))
                     .multilineTextAlignment(.leading)
+                    .padding(8)
+                    .background(.black.opacity(0.5))
+                    .cornerRadius(10)
                 
-                Divider()
-                                
                 VStack(spacing: 15) {
                     DetailCard(title: "Type", detail: galaxy.type)
               }

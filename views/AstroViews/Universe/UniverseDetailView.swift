@@ -37,6 +37,10 @@ struct UniverseDetailView: View {
                 Text(universe.detail)
                     .font(.system(size: 14))
                     .multilineTextAlignment(.leading)
+                    .padding(8)
+                    .background(.black.opacity(0.5))
+                    .cornerRadius(10)
+                
 
             }
         }

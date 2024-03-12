@@ -18,7 +18,7 @@ struct PlanetCard: View {
                 AsyncImage(url: URL(string: imageUrl)) { image in
                     image.image?
                         .resizable()
-                        .scaledToFill()
+                        .aspectRatio(contentMode: .fill)
                         .opacity(0.7)
                 }
         

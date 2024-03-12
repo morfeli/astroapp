@@ -78,9 +78,6 @@ struct HomeView: View {
                             astroView()
                         }
                     }
-                    .mask(
-                        LinearGradient(gradient: Gradient(colors: [Color.black, Color.black, Color.black, Color.black.opacity(0)]), startPoint: .top, endPoint: .bottom)
-                    )
                     Spacer()
                 }
                 .background(Image("astro-wallpaper-4"))
